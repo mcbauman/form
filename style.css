@@ -1,0 +1,40 @@
+body{
+    margin:0;
+    background: linear-gradient(90deg,pink, lightblue);
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main{
+    background-color: white;
+    width: 80%;
+    margin: 10vh auto auto auto;
+    padding: 15px;
+}
+
+h1{
+    text-align: center;
+}
+
+#name, #lastName, #email, #tellUs{
+    width: 90%;
+}
+
+.centered{
+    text-align: center;
+}
+
+#submit{
+    background-color: white;
+    border: solid lightgray;
+    padding: 0 20px;
+}
+
+input:focus{
+    border-color: rgb(253, 125, 189);
+    outline: none;
+}
+textarea:focus{
+    border-color: blue;
+    outline: none;
+}
+
